@@ -1,0 +1,105 @@
+
+*{
+	margin:0;
+	padding: 0;
+}
+.pink{
+	background-color: pink;
+}
+.red{
+	background-color: red;
+}
+.yellow{
+	background-color: yellow;
+}
+h3:hover{
+	background-color: lightgreen;
+	cursor: pointer;
+	height: 2em;
+	width: 9em;
+	border-style: double;
+}
+
+/****** Large Devices *****/
+@media (min-width: 992px){
+h1{
+	text-align: center;
+	margin:10px;
+}
+h3{
+
+	border-style: solid;
+	width:150px;
+	text-align: center;
+	margin-left:30%;
+}
+div{
+	float:left;
+	border-style: solid;
+	width:30%;
+	padding: 5px;
+	margin-top: 5px;
+	margin:0.8%;
+	background-color: gray;
+}
+}
+
+
+/****** Tablet *****/
+@media (min-width: 768px) and (max-width: 991px){
+h1{
+	text-align: center;
+	margin:10px;
+}
+h3{
+
+	border-style: solid;
+	width:150px;
+	text-align: center;
+	margin-left:30%;
+}
+div{
+	float:left;
+	border-style: solid;
+	width:45%;
+	padding: 5px;
+	margin-top: 5px;
+	margin:0.8%;
+	background-color: gray;
+
+}
+.third{
+	width: 93%;
+	height: 6em;
+}
+.third>h3{
+	margin-left:35%;
+}
+}
+
+/****** Mobile *****/
+@media (max-width: 767px){
+h1{
+	text-align: center;
+	margin:10px;
+}
+h3{
+
+	border-style: solid;
+	width:150px;
+	text-align: center;
+	margin-left:35%;
+}
+div{
+	float:left;
+	border-style: solid;
+	width:94%;
+	padding: 5px;
+	margin-top: 5px;
+	margin:0.8%;
+	background-color: gray;
+	height: 6em;
+
+}
+
+}
